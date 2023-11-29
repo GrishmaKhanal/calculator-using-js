@@ -1,0 +1,72 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+} */
+.text-center {
+  text-align: center;
+  font-weight: 700;
+}
+.container {
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  margin: 0.5%;
+  padding: 2.5%;
+  color: #070000;
+  border-radius: 5px;
+  border: 1px solid #8f1d1d;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 22%;
+}
+.equals-button {
+  background-color: #128c3180;
+  color: #213d72;
+}
+.clear-button{
+  background-color: #e05959;
+}
+.button:hover {
+  background-color: #128b304d;
+  color: #722121;
+  text-size-adjust: 100%;
+}
+.screen {
+  width: 85%;
+  margin: 2%;
+  padding: 3%;
+  border: 1px solid #8f1d1d;
+  background-color: #fff;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
+}
+#screen1{
+    margin: 2% 2% 0 2%;
+    padding: 3% 3% 0 3%;
+    border-bottom: #fff;
+    border-radius: 5px 5px 0 0;
+}
+#screen2{
+    margin: 0 2% 2% 2%;
+    padding: 0 3% 3% 3%;
+    border-top: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
